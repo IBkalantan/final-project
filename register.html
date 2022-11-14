@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="login.css">
+        <script defer src="register.js"></script>
+
+        <title>Login</title>
+
+        <!--Google font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <nav>
+            <h1 class="nav-header"><a href="index.html">GameRule</a></h1>
+
+            <ul class="nav-ul">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="games.html">Games</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="students.html">Students</a></li>
+            </ul>
+
+            <ul class="nav-ul">
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+            
+            <div class="container">
+
+               <label for="show" class="close-btn fas fa-times" title="close"></label>
+               <div class="text">Register Form</div>
+
+               <form action="#">
+                  <div class="data">
+                     <label>Username</label>
+                     <input id="user-name" type="text" required>
+                  </div>
+
+                  <div class="data">
+                     <label>Email</label>
+                     <input type="email" required>
+                  </div>
+
+                  <div class="data">
+                     <label>Password</label>
+                     <input id="pwd" type="password" required>
+                  </div>
+
+                  <div class="data">
+                     <label>Confirm Password</label>
+                     <input id="co-pwd" type="password" required>
+                  </div>
+
+                  <div class="btn">
+                     <div class="inner"></div>
+                     <button type="submit" onclick="passwordConfirmation();">SignUp</button>
+                  </div>
+               </form>
+            </div>
+
+            <footer>
+                <p class="copyR">Copyright © 2022 GameRule | All rights reserved | Contact</p>
+    
+                <div class="social-media">
+                    <a href="#"><img src="twitter.svg" class="icons" alt=""></a>
+                    <a href="#"><img src="insta.svg" class="icons" alt=""></a>
+                    <a href="#"><img src="facebook.svg" class="icons" alt=""></a>
+                    <a href="#"><img src="youtube.svg" class="icons" alt=""></a>
+                </div>
+            </footer>
+    </body>
+</html>
